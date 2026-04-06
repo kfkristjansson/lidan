@@ -169,7 +169,7 @@ export default function Home() {
           <div className="grid md:grid-cols-[280px_1fr] gap-12 items-start">
             <div className="md:hidden">
               <Image
-                src="/images/johanna-profile.png"
+                src="/images/johanna-headshot-2.png"
                 alt="Jóhanna Kristín Steingrímsdóttir"
                 width={280}
                 height={280}
@@ -178,7 +178,7 @@ export default function Home() {
             </div>
             <div className="hidden md:block">
               <Image
-                src="/images/johanna-profile.png"
+                src="/images/johanna-headshot-2.png"
                 alt="Jóhanna Kristín Steingrímsdóttir"
                 width={280}
                 height={280}
