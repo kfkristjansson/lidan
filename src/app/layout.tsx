@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Jóhanna Steingrímsdóttir — EMDR meðferðaraðili",
   description:
     "EMDR meðferðaraðili og hjúkrunarfræðingur. Sérhæfing í áfallavinnslu, þunglyndi, kvíða og núvitund. Vallakór 4, Kópavogur.",
+  icons: {
+    icon: "/images/flower-logo.png",
+  },
   openGraph: {
     title: "Jóhanna Steingrímsdóttir — EMDR meðferðaraðili",
     description: "EMDR, hugræn atferlismeðferð og núvitund.",

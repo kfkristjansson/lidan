@@ -279,13 +279,13 @@ export default function Home() {
                 ))}
               </ul>
             </div>
-            <div className="relative">
-              <Image
-                src="/images/skies.jpg"
-                alt="Ró og nærvera"
-                width={480}
-                height={335}
-                className="rounded-xl shadow-[0_1px_3px_rgba(0,0,0,0.04)]"
+            <div className="relative aspect-video rounded-xl overflow-hidden shadow-[0_1px_3px_rgba(0,0,0,0.04)]">
+              <iframe
+                src="https://www.youtube.com/embed/hKrfH43srg8"
+                title="EMDR meðferð"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
               />
             </div>
           </div>

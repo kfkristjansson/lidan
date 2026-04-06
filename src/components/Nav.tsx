@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const NAV_LINKS = [
   { label: "Heim", href: "/" },
-  { label: "Hafa samband", href: "/#samband" },
+  { label: "Hafa samband", href: "mailto:johannas@emdrstofan.is" },
 ];
 
 export default function Nav() {
